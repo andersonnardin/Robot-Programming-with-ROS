@@ -1,0 +1,26 @@
+[0.190s] Invoking command in '/root/my_ros2_ws/build/turtle_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /root/my_ros2_ws/build/turtle_controller -- -j16 -l16
+[0.217s] [35m[1mScanning dependencies of target turtle_controller[0m
+[0.238s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[4.863s] [100%] [32m[1mLinking CXX executable turtle_controller[0m
+[5.057s] [100%] Built target turtle_controller
+[5.065s] Invoked command in '/root/my_ros2_ws/build/turtle_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /root/my_ros2_ws/build/turtle_controller -- -j16 -l16
+[5.086s] Invoking command in '/root/my_ros2_ws/build/turtle_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /root/my_ros2_ws/build/turtle_controller
+[5.090s] -- Install configuration: ""
+[5.091s] -- Installing: /root/my_ros2_ws/install/turtle_controller/lib/turtle_controller/turtle_controller
+[5.095s] -- Set runtime path of "/root/my_ros2_ws/install/turtle_controller/lib/turtle_controller/turtle_controller" to ""
+[5.095s] -- Up-to-date: /root/my_ros2_ws/install/turtle_controller/share/ament_index/resource_index/package_run_dependencies/turtle_controller
+[5.095s] -- Up-to-date: /root/my_ros2_ws/install/turtle_controller/share/ament_index/resource_index/parent_prefix_path/turtle_controller
+[5.095s] -- Up-to-date: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/environment/ament_prefix_path.sh
+[5.095s] -- Up-to-date: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/environment/ament_prefix_path.dsv
+[5.096s] -- Up-to-date: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/environment/path.sh
+[5.096s] -- Up-to-date: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/environment/path.dsv
+[5.096s] -- Up-to-date: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.bash
+[5.096s] -- Up-to-date: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.sh
+[5.096s] -- Up-to-date: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.zsh
+[5.096s] -- Up-to-date: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.dsv
+[5.096s] -- Installing: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/package.dsv
+[5.097s] -- Up-to-date: /root/my_ros2_ws/install/turtle_controller/share/ament_index/resource_index/packages/turtle_controller
+[5.097s] -- Up-to-date: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/cmake/turtle_controllerConfig.cmake
+[5.097s] -- Up-to-date: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/cmake/turtle_controllerConfig-version.cmake
+[5.097s] -- Up-to-date: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/package.xml
+[5.098s] Invoked command in '/root/my_ros2_ws/build/turtle_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /root/my_ros2_ws/build/turtle_controller

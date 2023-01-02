@@ -1,0 +1,46 @@
+[0.023s] Invoking command in '/root/my_ros2_ws/build/assignment2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /root/my_ros2_ws/build/assignment2 -- -j16 -l16
+[0.043s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.222s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.245s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.247s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.386s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.387s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.481s] -- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.501s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[0.569s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.614s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.615s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.615s] -- Configured cppcheck include dirs: 
+[0.615s] -- Configured cppcheck exclude dirs and/or files: 
+[0.616s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.616s] -- Configured cpplint exclude dirs and/or files: 
+[0.616s] -- Added test 'lint_cmake' to check CMake code style
+[0.616s] -- Added test 'uncrustify' to check C / C++ code style
+[0.617s] -- Configured uncrustify additional arguments: 
+[0.617s] -- Added test 'xmllint' to check XML markup files
+[0.618s] -- Configuring done
+[0.625s] -- Generating done
+[0.626s] -- Build files have been written to: /root/my_ros2_ws/build/assignment2
+[0.660s] [100%] Built target turtle_controller_ROS2
+[0.669s] Invoked command in '/root/my_ros2_ws/build/assignment2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /root/my_ros2_ws/build/assignment2 -- -j16 -l16
+[0.688s] Invoking command in '/root/my_ros2_ws/build/assignment2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /root/my_ros2_ws/build/assignment2
+[0.693s] -- Install configuration: ""
+[0.693s] -- Up-to-date: /root/my_ros2_ws/install/assignment2/lib/assignment2/turtle_controller_ROS2
+[0.693s] -- Up-to-date: /root/my_ros2_ws/install/assignment2/share/ament_index/resource_index/package_run_dependencies/assignment2
+[0.693s] -- Installing: /root/my_ros2_ws/install/assignment2/share/ament_index/resource_index/parent_prefix_path/assignment2
+[0.693s] -- Up-to-date: /root/my_ros2_ws/install/assignment2/share/assignment2/environment/ament_prefix_path.sh
+[0.693s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/environment/ament_prefix_path.dsv
+[0.693s] -- Up-to-date: /root/my_ros2_ws/install/assignment2/share/assignment2/environment/path.sh
+[0.694s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/environment/path.dsv
+[0.694s] -- Up-to-date: /root/my_ros2_ws/install/assignment2/share/assignment2/local_setup.bash
+[0.694s] -- Up-to-date: /root/my_ros2_ws/install/assignment2/share/assignment2/local_setup.sh
+[0.694s] -- Up-to-date: /root/my_ros2_ws/install/assignment2/share/assignment2/local_setup.zsh
+[0.694s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/local_setup.dsv
+[0.694s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/package.dsv
+[0.694s] -- Up-to-date: /root/my_ros2_ws/install/assignment2/share/ament_index/resource_index/packages/assignment2
+[0.694s] -- Up-to-date: /root/my_ros2_ws/install/assignment2/share/assignment2/cmake/assignment2Config.cmake
+[0.694s] -- Up-to-date: /root/my_ros2_ws/install/assignment2/share/assignment2/cmake/assignment2Config-version.cmake
+[0.694s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/package.xml
+[0.697s] Invoked command in '/root/my_ros2_ws/build/assignment2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /root/my_ros2_ws/build/assignment2

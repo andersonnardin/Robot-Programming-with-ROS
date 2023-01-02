@@ -1,0 +1,2 @@
+Invoking command in '/root/my_ros2_ws/build/turtle_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /root/my_ros2_ws/build/turtle_controller -- -j16 -l16
+Invoked command in '/root/my_ros2_ws/build/turtle_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /root/my_ros2_ws/build/turtle_controller -- -j16 -l16

@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000143] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000167] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000198] (turtle_controller) JobQueued: {'identifier': 'turtle_controller', 'dependencies': OrderedDict()}
+[0.001059] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.009071] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.015890] (turtle_controller) JobStarted: {'identifier': 'turtle_controller'}
+[0.019759] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.021082] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.021123] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/my_ros2_ws/build/cpp_pubsub', '--', '-j16', '-l16'], 'cwd': '/root/my_ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '84c843f1ce2a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/root/my_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/my_ros2_ws/install/py_pubsub:/root/my_ros2_ws/install/cpp_pubsub:/root/my_ros2_ws/install/assignment2:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:755c23db-b28a-4c23-91b0-9dc5e5bf7468'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/root/my_ros2_ws/build/cpp_pubsub'), ('RESOLUTION', '1920x1080'), ('PYTHONPATH', '/root/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/root/my_ros2_ws/install/cpp_pubsub:/root/my_ros2_ws/install/assignment2:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.099857] (-) TimerEvent: {}
+[0.193307] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target publisher2\n'}
+[0.193513] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[0.193586] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target publisher1\n'}
+[0.194724] (turtle_controller) JobProgress: {'identifier': 'turtle_controller', 'progress': 'cmake'}
+[0.196007] (turtle_controller) Command: {'cmd': ['/usr/bin/cmake', '/root/my_ros2_ws/src/turtle_controller_ROS2', '-DCMAKE_INSTALL_PREFIX=/root/my_ros2_ws/install/turtle_controller'], 'cwd': '/root/my_ros2_ws/build/turtle_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '84c843f1ce2a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/root/my_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/my_ros2_ws/install/py_pubsub:/root/my_ros2_ws/install/cpp_pubsub:/root/my_ros2_ws/install/assignment2:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:755c23db-b28a-4c23-91b0-9dc5e5bf7468'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/root/my_ros2_ws/build/turtle_controller'), ('RESOLUTION', '1920x1080'), ('PYTHONPATH', '/root/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/root/my_ros2_ws/install/cpp_pubsub:/root/my_ros2_ws/install/assignment2:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.200510] (-) TimerEvent: {}
+[0.201827] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[0.202263] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/root/my_ros2_ws/build/py_pubsub/build', 'install', '--prefix', '/root/my_ros2_ws/install/py_pubsub', '--record', '/root/my_ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/root/my_ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'SUPERVISOR_GROUP_NAME': 'x', 'HOSTNAME': '84c843f1ce2a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'COLCON_PREFIX_PATH': '/root/my_ros2_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/root/my_ros2_ws/install/py_pubsub:/root/my_ros2_ws/install/cpp_pubsub:/root/my_ros2_ws/install/assignment2:/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:755c23db-b28a-4c23-91b0-9dc5e5bf7468', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'pcmanfm', 'PWD': '/root/my_ros2_ws/build/py_pubsub', 'RESOLUTION': '1920x1080', 'PYTHONPATH': '/root/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/root/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/root/my_ros2_ws/install/cpp_pubsub:/root/my_ros2_ws/install/assignment2'}, 'shell': False}
+[0.218189] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[0.227675] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/my_ros2_ws/build/cpp_pubsub'], 'cwd': '/root/my_ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '84c843f1ce2a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/root/my_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/my_ros2_ws/install/py_pubsub:/root/my_ros2_ws/install/cpp_pubsub:/root/my_ros2_ws/install/assignment2:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:755c23db-b28a-4c23-91b0-9dc5e5bf7468'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/root/my_ros2_ws/build/cpp_pubsub'), ('RESOLUTION', '1920x1080'), ('PYTHONPATH', '/root/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/root/my_ros2_ws/install/cpp_pubsub:/root/my_ros2_ws/install/assignment2:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.233337] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.233523] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/publisher1\n'}
+[0.233658] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/publisher2\n'}
+[0.233930] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/subscriber\n'}
+[0.234295] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[0.234569] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[0.234675] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[0.234731] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[0.234904] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[0.234950] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[0.234999] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[0.235043] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[0.235087] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[0.235131] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[0.235174] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[0.235217] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[0.235261] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[0.235304] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[0.235347] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/my_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[0.236219] (turtle_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.236938] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[0.277751] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[0.278366] (turtle_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.281594] (turtle_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300723] (-) TimerEvent: {}
+[0.333108] (turtle_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.333744] (turtle_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.366825] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[0.367209] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[0.367376] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[0.367713] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[0.367836] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[0.367957] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[0.383269] (turtle_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.390852] (turtle_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.391103] (turtle_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.392824] (turtle_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.394182] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.394835] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.394955] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[0.395042] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[0.395089] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[0.395728] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[0.396691] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[0.397072] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.398159] (py_pubsub) StdoutLine: {'line': b"removing '/root/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.398365] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /root/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info\n'}
+[0.399331] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[0.400811] (-) TimerEvent: {}
+[0.413205] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/root/my_ros2_ws/build/py_pubsub/install.log'\n"}
+[0.429163] (py_pubsub) CommandEnded: {'returncode': 0}
+[0.434270] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[0.451682] (turtle_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.452477] (turtle_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500973] (-) TimerEvent: {}
+[0.511801] (turtle_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.520282] (turtle_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.520594] (turtle_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.522394] (turtle_controller) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.540663] (turtle_controller) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.540779] (turtle_controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.601083] (-) TimerEvent: {}
+[0.687352] (turtle_controller) StdoutLine: {'line': b'-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.701175] (-) TimerEvent: {}
+[0.717566] (turtle_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.722106] (turtle_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.778512] (turtle_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.801342] (-) TimerEvent: {}
+[0.803017] (turtle_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.861542] (turtle_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.898078] (turtle_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.899029] (turtle_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.899699] (turtle_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.901424] (-) TimerEvent: {}
+[0.954340] (turtle_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.954536] (turtle_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001594] (-) TimerEvent: {}
+[1.004432] (turtle_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.004550] (turtle_controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.043177] (turtle_controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.043348] (turtle_controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.094691] (turtle_controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.095928] (turtle_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101742] (-) TimerEvent: {}
+[1.197568] (turtle_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.201889] (-) TimerEvent: {}
+[1.222213] (turtle_controller) StdoutLine: {'line': b'-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[1.300734] (turtle_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.302032] (-) TimerEvent: {}
+[1.358221] (turtle_controller) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.358891] (turtle_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.358993] (turtle_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.359041] (turtle_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.359506] (turtle_controller) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.359590] (turtle_controller) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.360006] (turtle_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.360593] (turtle_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.360676] (turtle_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.360988] (turtle_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.363611] (turtle_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.371124] (turtle_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.372892] (turtle_controller) StdoutLine: {'line': b'-- Build files have been written to: /root/my_ros2_ws/build/turtle_controller\n'}
+[1.380905] (turtle_controller) CommandEnded: {'returncode': 0}
+[1.381687] (turtle_controller) JobProgress: {'identifier': 'turtle_controller', 'progress': 'build'}
+[1.383211] (turtle_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/my_ros2_ws/build/turtle_controller', '--', '-j16', '-l16'], 'cwd': '/root/my_ros2_ws/build/turtle_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '84c843f1ce2a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/root/my_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/my_ros2_ws/install/py_pubsub:/root/my_ros2_ws/install/cpp_pubsub:/root/my_ros2_ws/install/assignment2:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:755c23db-b28a-4c23-91b0-9dc5e5bf7468'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/root/my_ros2_ws/build/turtle_controller'), ('RESOLUTION', '1920x1080'), ('PYTHONPATH', '/root/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/root/my_ros2_ws/install/cpp_pubsub:/root/my_ros2_ws/install/assignment2:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[1.402332] (-) TimerEvent: {}
+[1.411709] (turtle_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_controller_ROS2\x1b[0m\n'}
+[1.436324] (turtle_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_controller_ROS2.dir/src/turtle_controller_ROS2.cpp.o\x1b[0m\n'}
+[1.502459] (-) TimerEvent: {}
+[1.602899] (-) TimerEvent: {}
+[1.703446] (-) TimerEvent: {}
+[1.803988] (-) TimerEvent: {}
+[1.904455] (-) TimerEvent: {}
+[2.004887] (-) TimerEvent: {}
+[2.105345] (-) TimerEvent: {}
+[2.205814] (-) TimerEvent: {}
+[2.306203] (-) TimerEvent: {}
+[2.406739] (-) TimerEvent: {}
+[2.507149] (-) TimerEvent: {}
+[2.607571] (-) TimerEvent: {}
+[2.707943] (-) TimerEvent: {}
+[2.808341] (-) TimerEvent: {}
+[2.908768] (-) TimerEvent: {}
+[3.009168] (-) TimerEvent: {}
+[3.109551] (-) TimerEvent: {}
+[3.210010] (-) TimerEvent: {}
+[3.310522] (-) TimerEvent: {}
+[3.410882] (-) TimerEvent: {}
+[3.511365] (-) TimerEvent: {}
+[3.611809] (-) TimerEvent: {}
+[3.712222] (-) TimerEvent: {}
+[3.812647] (-) TimerEvent: {}
+[3.913056] (-) TimerEvent: {}
+[4.013458] (-) TimerEvent: {}
+[4.113800] (-) TimerEvent: {}
+[4.214177] (-) TimerEvent: {}
+[4.314581] (-) TimerEvent: {}
+[4.414900] (-) TimerEvent: {}
+[4.515283] (-) TimerEvent: {}
+[4.615662] (-) TimerEvent: {}
+[4.716066] (-) TimerEvent: {}
+[4.816509] (-) TimerEvent: {}
+[4.917005] (-) TimerEvent: {}
+[5.017514] (-) TimerEvent: {}
+[5.117902] (-) TimerEvent: {}
+[5.218265] (-) TimerEvent: {}
+[5.318680] (-) TimerEvent: {}
+[5.419076] (-) TimerEvent: {}
+[5.519488] (-) TimerEvent: {}
+[5.619874] (-) TimerEvent: {}
+[5.720371] (-) TimerEvent: {}
+[5.787153] (turtle_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_controller_ROS2\x1b[0m\n'}
+[5.820581] (-) TimerEvent: {}
+[5.920969] (-) TimerEvent: {}
+[5.968795] (turtle_controller) StdoutLine: {'line': b'[100%] Built target turtle_controller_ROS2\n'}
+[5.976272] (turtle_controller) CommandEnded: {'returncode': 0}
+[5.994270] (turtle_controller) JobProgress: {'identifier': 'turtle_controller', 'progress': 'install'}
+[5.995525] (turtle_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/my_ros2_ws/build/turtle_controller'], 'cwd': '/root/my_ros2_ws/build/turtle_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '84c843f1ce2a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/root/my_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/my_ros2_ws/install/py_pubsub:/root/my_ros2_ws/install/cpp_pubsub:/root/my_ros2_ws/install/assignment2:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:755c23db-b28a-4c23-91b0-9dc5e5bf7468'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/root/my_ros2_ws/build/turtle_controller'), ('RESOLUTION', '1920x1080'), ('PYTHONPATH', '/root/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/root/my_ros2_ws/install/cpp_pubsub:/root/my_ros2_ws/install/assignment2:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[6.000528] (turtle_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.000697] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/lib/turtle_controller/turtle_controller_ROS2\n'}
+[6.002275] (turtle_controller) StdoutLine: {'line': b'-- Set runtime path of "/root/my_ros2_ws/install/turtle_controller/lib/turtle_controller/turtle_controller_ROS2" to ""\n'}
+[6.002457] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/ament_index/resource_index/package_run_dependencies/turtle_controller\n'}
+[6.002619] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/ament_index/resource_index/parent_prefix_path/turtle_controller\n'}
+[6.002796] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/environment/ament_prefix_path.sh\n'}
+[6.002975] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/environment/ament_prefix_path.dsv\n'}
+[6.003141] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/environment/path.sh\n'}
+[6.003934] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/environment/path.dsv\n'}
+[6.004338] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.bash\n'}
+[6.004483] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.sh\n'}
+[6.004773] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.zsh\n'}
+[6.004834] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.dsv\n'}
+[6.004903] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/package.dsv\n'}
+[6.004953] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/ament_index/resource_index/packages/turtle_controller\n'}
+[6.005238] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/cmake/turtle_controllerConfig.cmake\n'}
+[6.005324] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/cmake/turtle_controllerConfig-version.cmake\n'}
+[6.005382] (turtle_controller) StdoutLine: {'line': b'-- Installing: /root/my_ros2_ws/install/turtle_controller/share/turtle_controller/package.xml\n'}
+[6.007169] (turtle_controller) CommandEnded: {'returncode': 0}
+[6.021115] (-) TimerEvent: {}
+[6.034755] (turtle_controller) JobEnded: {'identifier': 'turtle_controller', 'rc': 0}
+[6.035897] (-) EventReactorShutdown: {}

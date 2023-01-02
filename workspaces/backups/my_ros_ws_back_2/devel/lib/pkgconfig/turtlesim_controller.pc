@@ -1,0 +1,8 @@
+prefix=/root/my_ros_ws/devel
+
+Name: turtlesim_controller
+Description: Description of turtlesim_controller
+Version: 0.0.0
+Cflags: -I/root/my_ros_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,78 @@
+[0.032s] Invoking command in '/root/my_ros2_ws/build/assignment2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake /root/my_ros2_ws/src/turtle_controller_ROS2 -DCMAKE_INSTALL_PREFIX=/root/my_ros2_ws/install/assignment2
+[0.240s] -- The C compiler identification is GNU 9.3.0
+[0.325s] -- The CXX compiler identification is GNU 9.3.0
+[0.330s] -- Check for working C compiler: /usr/bin/cc
+[0.391s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.393s] -- Detecting C compiler ABI info
+[0.449s] -- Detecting C compiler ABI info - done
+[0.458s] -- Detecting C compile features
+[0.459s] -- Detecting C compile features - done
+[0.461s] -- Check for working CXX compiler: /usr/bin/c++
+[0.523s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.524s] -- Detecting CXX compiler ABI info
+[0.585s] -- Detecting CXX compiler ABI info - done
+[0.593s] -- Detecting CXX compile features
+[0.593s] -- Detecting CXX compile features - done
+[0.597s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.620s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.620s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.790s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.836s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.842s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.923s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.952s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.026s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.079s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.080s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.081s] -- Looking for pthread.h
+[1.138s] -- Looking for pthread.h - found
+[1.138s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.195s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.195s] -- Looking for pthread_create in pthreads
+[1.235s] -- Looking for pthread_create in pthreads - not found
+[1.235s] -- Looking for pthread_create in pthread
+[1.283s] -- Looking for pthread_create in pthread - found
+[1.285s] -- Found Threads: TRUE  
+[1.400s] -- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.427s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[1.513s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.576s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.578s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.578s] -- Configured cppcheck include dirs: 
+[1.578s] -- Configured cppcheck exclude dirs and/or files: 
+[1.579s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.579s] -- Configured cpplint exclude dirs and/or files: 
+[1.580s] -- Added test 'lint_cmake' to check CMake code style
+[1.581s] -- Added test 'uncrustify' to check C / C++ code style
+[1.581s] -- Configured uncrustify additional arguments: 
+[1.581s] -- Added test 'xmllint' to check XML markup files
+[1.584s] -- Configuring done
+[1.593s] -- Generating done
+[1.594s] -- Build files have been written to: /root/my_ros2_ws/build/assignment2
+[1.602s] Invoked command in '/root/my_ros2_ws/build/assignment2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake /root/my_ros2_ws/src/turtle_controller_ROS2 -DCMAKE_INSTALL_PREFIX=/root/my_ros2_ws/install/assignment2
+[1.604s] Invoking command in '/root/my_ros2_ws/build/assignment2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /root/my_ros2_ws/build/assignment2 -- -j16 -l16
+[1.630s] [35m[1mScanning dependencies of target turtle_controller_ROS2[0m
+[1.700s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller_ROS2.dir/src/turtle_controller_ROS2.cpp.o[0m
+[6.177s] [100%] [32m[1mLinking CXX executable turtle_controller_ROS2[0m
+[6.407s] [100%] Built target turtle_controller_ROS2
+[6.419s] Invoked command in '/root/my_ros2_ws/build/assignment2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /root/my_ros2_ws/build/assignment2 -- -j16 -l16
+[6.438s] Invoking command in '/root/my_ros2_ws/build/assignment2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /root/my_ros2_ws/build/assignment2
+[6.444s] -- Install configuration: ""
+[6.444s] -- Installing: /root/my_ros2_ws/install/assignment2/lib/assignment2/turtle_controller_ROS2
+[6.446s] -- Set runtime path of "/root/my_ros2_ws/install/assignment2/lib/assignment2/turtle_controller_ROS2" to ""
+[6.446s] -- Installing: /root/my_ros2_ws/install/assignment2/share/ament_index/resource_index/package_run_dependencies/assignment2
+[6.446s] -- Installing: /root/my_ros2_ws/install/assignment2/share/ament_index/resource_index/parent_prefix_path/assignment2
+[6.447s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/environment/ament_prefix_path.sh
+[6.447s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/environment/ament_prefix_path.dsv
+[6.447s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/environment/path.sh
+[6.447s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/environment/path.dsv
+[6.448s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/local_setup.bash
+[6.448s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/local_setup.sh
+[6.448s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/local_setup.zsh
+[6.448s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/local_setup.dsv
+[6.448s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/package.dsv
+[6.448s] -- Installing: /root/my_ros2_ws/install/assignment2/share/ament_index/resource_index/packages/assignment2
+[6.448s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/cmake/assignment2Config.cmake
+[6.448s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/cmake/assignment2Config-version.cmake
+[6.449s] -- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/package.xml
+[6.452s] Invoked command in '/root/my_ros2_ws/build/assignment2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /root/my_ros2_ws/build/assignment2

@@ -1,0 +1,52 @@
+[0.185s] Invoking command in '/root/my_ros2_ws/build/turtle_controller_ROS2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake /root/my_ros2_ws/src/turtle_controller_ROS2 -DCMAKE_INSTALL_PREFIX=/root/my_ros2_ws/install/turtle_controller_ROS2
+[0.227s] -- The C compiler identification is GNU 9.3.0
+[0.274s] -- The CXX compiler identification is GNU 9.3.0
+[0.280s] -- Check for working C compiler: /usr/bin/cc
+[0.335s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.336s] -- Detecting C compiler ABI info
+[0.385s] -- Detecting C compiler ABI info - done
+[0.393s] -- Detecting C compile features
+[0.393s] -- Detecting C compile features - done
+[0.395s] -- Check for working CXX compiler: /usr/bin/c++
+[0.450s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.451s] -- Detecting CXX compiler ABI info
+[0.507s] -- Detecting CXX compiler ABI info - done
+[0.514s] -- Detecting CXX compile features
+[0.515s] -- Detecting CXX compile features - done
+[0.517s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.534s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.534s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.680s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.711s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.716s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.776s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.801s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.864s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.907s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.908s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.909s] -- Looking for pthread.h
+[0.959s] -- Looking for pthread.h - found
+[0.959s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.008s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.009s] -- Looking for pthread_create in pthreads
+[1.048s] -- Looking for pthread_create in pthreads - not found
+[1.048s] -- Looking for pthread_create in pthread
+[1.095s] -- Looking for pthread_create in pthread - found
+[1.095s] -- Found Threads: TRUE  
+[1.193s] -- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.215s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[1.286s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.321s] WARNING: Package name "turtle_controller_ROS2" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.325s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[1.325s]   ament_package_xml() package name 'turtle_controller_ROS2' in '/package.xml'
+[1.325s]   does not match current PROJECT_NAME 'assignment2'.  You must call project()
+[1.325s]   with the same package name before.
+[1.325s] Call Stack (most recent call first):
+[1.325s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.325s]   CMakeLists.txt:43 (ament_lint_auto_find_test_dependencies)
+[1.325s] 
+[1.325s] 
+[1.327s] -- Configuring incomplete, errors occurred!
+[1.327s] See also "/root/my_ros2_ws/build/turtle_controller_ROS2/CMakeFiles/CMakeOutput.log".
+[1.327s] See also "/root/my_ros2_ws/build/turtle_controller_ROS2/CMakeFiles/CMakeError.log".
+[1.333s] Invoked command in '/root/my_ros2_ws/build/turtle_controller_ROS2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake /root/my_ros2_ws/src/turtle_controller_ROS2 -DCMAKE_INSTALL_PREFIX=/root/my_ros2_ws/install/turtle_controller_ROS2

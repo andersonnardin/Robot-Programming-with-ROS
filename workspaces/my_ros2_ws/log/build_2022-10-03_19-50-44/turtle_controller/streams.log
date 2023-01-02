@@ -1,0 +1,5 @@
+[0.195s] Invoking command in '/root/my_ros2_ws/build/turtle_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /root/my_ros2_ws/build/turtle_controller -- -j16 -l16
+[0.206s] CMake Error: The source directory "/root/my_ros2_ws/src/turtle_controller_ROS2" does not exist.
+[0.206s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.207s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.209s] Invoked command in '/root/my_ros2_ws/build/turtle_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /root/my_ros2_ws/build/turtle_controller -- -j16 -l16

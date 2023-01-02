@@ -1,0 +1,42 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/my_ros2_ws/build/assignment2
+[100%] Built target turtle_controller_ROS2
+-- Install configuration: ""
+-- Up-to-date: /root/my_ros2_ws/install/assignment2/lib/assignment2/turtle_controller_ROS2
+-- Up-to-date: /root/my_ros2_ws/install/assignment2/share/ament_index/resource_index/package_run_dependencies/assignment2
+-- Installing: /root/my_ros2_ws/install/assignment2/share/ament_index/resource_index/parent_prefix_path/assignment2
+-- Up-to-date: /root/my_ros2_ws/install/assignment2/share/assignment2/environment/ament_prefix_path.sh
+-- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/my_ros2_ws/install/assignment2/share/assignment2/environment/path.sh
+-- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/environment/path.dsv
+-- Up-to-date: /root/my_ros2_ws/install/assignment2/share/assignment2/local_setup.bash
+-- Up-to-date: /root/my_ros2_ws/install/assignment2/share/assignment2/local_setup.sh
+-- Up-to-date: /root/my_ros2_ws/install/assignment2/share/assignment2/local_setup.zsh
+-- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/local_setup.dsv
+-- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/package.dsv
+-- Up-to-date: /root/my_ros2_ws/install/assignment2/share/ament_index/resource_index/packages/assignment2
+-- Up-to-date: /root/my_ros2_ws/install/assignment2/share/assignment2/cmake/assignment2Config.cmake
+-- Up-to-date: /root/my_ros2_ws/install/assignment2/share/assignment2/cmake/assignment2Config-version.cmake
+-- Installing: /root/my_ros2_ws/install/assignment2/share/assignment2/package.xml

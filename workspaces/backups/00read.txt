@@ -1,0 +1,1 @@
+It is needed to remove any text after ws in the folder name before compilate.
